@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {}
+    "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",

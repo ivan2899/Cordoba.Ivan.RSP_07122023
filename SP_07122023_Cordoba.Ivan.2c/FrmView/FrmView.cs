@@ -8,17 +8,18 @@ namespace FrmView
 {
     public partial class FrmView : Form
     {
-        private Queue<IComestible> comidas;
+        //private Queue<IComestible> comidas;
+        IComestible comida;
         Cocinero<Hamburguesa> hamburguesero;
 
         public FrmView()
         {
             InitializeComponent();
-            this.comidas = new Queue<IComestible>();
             this.hamburguesero = new Cocinero<Hamburguesa>("Ramon");
             //Alumno - agregar manejadores al cocinero
             this.hamburguesero.OnDemora += this.MostrarConteo;
-            this.hamburguesero.OnIngreso += this.MostrarComida;
+            this.hamburguesero.OnPedido += this.MostrarComida;
+
         }
 
 
@@ -32,7 +33,7 @@ namespace FrmView
             }
             else
             {
-                this.comidas.Enqueue(comida);
+                this.comida = comida;
                 this.pcbComida.Load(comida.Imagen);
                 this.rchElaborando.Text = comida.ToString();
             }
@@ -55,10 +56,10 @@ namespace FrmView
             }
         }
 
-        private void ActualizarAtendidos(IComestible comida)
-        {
-            this.rchFinalizados.Text += "\n" + comida.Ticket;
-        }
+        //private void ActualizarAtendidos(IComestible comida)
+        //{
+        //    this.rchFinalizados.Text += "\n" + comida.Ticket;
+        //}
 
         private void btnAbrir_Click(object sender, EventArgs e)
         {
@@ -70,18 +71,17 @@ namespace FrmView
             else
             {
                 this.hamburguesero.HabilitarCocina = false;
-                btnSiguiente_Click(sender, e); // Agregado porque sino el ultimo objeto a la hora de cerrar no se guarda correctamente
                 this.btnAbrir.Image = Properties.Resources.open_icon;
             }
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            if (this.comidas.Count > 0)
+            if (this.comida is not null)
             {
-                IComestible comida = this.comidas.Dequeue();
                 comida.FinalizarPreparacion(this.hamburguesero.Nombre);
-                this.ActualizarAtendidos(comida);
+                this.rchFinalizados.Text += "\n" + comida.Ticket;
+                this.comida = null;
             }
             else
             {
@@ -107,7 +107,7 @@ namespace FrmView
                 }
                 catch (Exception excep)
                 {
-                    MessageBox.Show(excep.InnerException.Message, "Error al guardar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(excep.InnerException.Message, "Error al guardar x2", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

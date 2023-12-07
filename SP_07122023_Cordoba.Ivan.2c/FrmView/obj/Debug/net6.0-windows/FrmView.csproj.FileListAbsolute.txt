@@ -60,3 +60,30 @@ C:\Users\ivanc\Desktop\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-wind
 C:\Users\ivanc\Desktop\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
 C:\Users\ivanc\Desktop\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
 C:\Users\ivanc\Desktop\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\ivanc\Desktop\Nueva carpeta (3)\SP_07122023_Cordoba.Ivan.2c\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll

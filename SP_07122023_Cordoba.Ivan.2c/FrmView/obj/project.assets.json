@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\FrmView.csproj",
+      "projectUniqueName": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\FrmView.csproj",
       "projectName": "FrmView",
-      "projectPath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\FrmView.csproj",
+      "projectPath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\FrmView.csproj",
       "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\obj\\",
+      "outputPath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\FrmView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,8 +514,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj"
+            "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\Entidades\\Entidades.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbvIhvRCcOv/1THdUt6IAumjMymnwdPzEyOZdgJeIS8mh0cvaz2OXotn/KLKYqOQuY/xjzDMCXoWLHjNXNyzkw==",
+  "dgSpecHash": "dGf4gsi7fSpsr7jePkq6PayYFcCJrJskh9hAYFp+27a7UneyOA8xb46DzfvmBAaZwL94ESfXGSeWDsBeLzaoSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivanc\\Desktop\\SP_07122023_Cordoba.Ivan.2c\\MisTest\\MisTest.csproj",
+  "projectFilePath": "C:\\Users\\ivanc\\Desktop\\Nueva carpeta (3)\\SP_07122023_Cordoba.Ivan.2c\\MisTest\\MisTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivanc\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -19,7 +19,7 @@ namespace Entidades.DataBase
         /// <summary>
         /// Obtiene la imagen de la comida de la base de datos en la tabla COMIDAS
         /// </summary>
-        /// <param name="tipo"></param>
+        /// <param name="tipo"></param> La comida a obtener
         /// <returns></returns>
         /// <exception cref="ComidaInvalidaExeption"></exception> Si no posee columnas para poder leer la imagen lanza esta excepcion
         /// <exception cref="DataBaseManagerException"></exception> Si no se pudo leer la imagen se lanza esta excepcion
