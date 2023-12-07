@@ -14,12 +14,12 @@ namespace Entidades.Modelos
         private CancellationTokenSource cancellation;
         private int cantPedidosFinalizados;
         private double demoraPreparacionTotal;
-        private T pedidoEnPreparacion;
         private string nombre;
         private Task tarea;
+        //Recuperatorio
+        private T pedidoEnPreparacion;
         private Mozo<T> mozo;
         private Queue<T> pedidos;
-
 
         public Cocinero(string nombre)
         {
@@ -81,7 +81,7 @@ namespace Entidades.Modelos
         }
 
         /// <summary>
-        /// Ejecuta en un hilo secundario la accion de notificar un ingreso de otra hamburguesa, incrementa la cantidad de pedidos finalizados y guarda el ticket de la hamburguesa en la BD
+        /// Ejecuta en un hilo secundario la accion de notificar un ingreso de otra comida, incrementa la cantidad de pedidos finalizados y guarda el ticket de la hamburguesa en la BD
         /// </summary>
         private void EmpezarACocinar()
         {
@@ -90,12 +90,12 @@ namespace Entidades.Modelos
                 while (!this.cancellation.IsCancellationRequested)
                 {
 
-                    if (this.pedidos.Count > 0 && this.OnPedido is not null)
+                    if (this.Pedidos.Count > 0 && this.OnPedido is not null)
                     {
-                        this.pedidoEnPreparacion = this.pedidos.Dequeue();
+                        this.pedidoEnPreparacion = this.Pedidos.Dequeue(); 
                         this.OnPedido.Invoke(this.pedidoEnPreparacion);
                         //TomarNuevoPedido(this.pedidoEnPreparacion);
-                        EsperarProximoIngreso();
+                        this.EsperarProximoIngreso();
                         this.cantPedidosFinalizados++;
                         try
                         {
@@ -123,12 +123,15 @@ namespace Entidades.Modelos
         //    }
         //}
 
-
+        /// <summary>
+        /// Agregara el pedido a la cola de pedidos si OnPedido posee subscriptores
+        /// </summary>
+        /// <param name="menu"></param> pedido para agregar a la cola de pedidos
         private void TomarNuevoPedido(T menu)
         {
             if (this.OnPedido is not null)
             {
-                this.pedidos.Enqueue(menu);
+                this.Pedidos.Enqueue(menu);
             }
         }
 

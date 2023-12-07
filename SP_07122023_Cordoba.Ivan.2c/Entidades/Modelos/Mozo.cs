@@ -39,6 +39,9 @@ namespace Entidades.Modelos
             }
         }
 
+        /// <summary>
+        /// Verificara si el evento OnPedido posee suscriptores, si es asi instancia un menú e inicia la preparación
+        /// </summary>
         private void NotificarNuevoPedido()
         {
             if (this.OnPedido is not null)
@@ -49,13 +52,16 @@ namespace Entidades.Modelos
             }
         }
 
+        /// <summary>
+        /// Ejecuta en un hilo secundario la accion de notificar un ingreso de otra comida luego duerme el hilo por 5segundos
+        /// </summary>
         private void TomarPedidos()
         {
             this.tarea = Task.Run(() =>
             {
                 while (!this.cancellation.IsCancellationRequested)
                 {
-                    NotificarNuevoPedido();
+                    this.NotificarNuevoPedido();
                     Thread.Sleep(5000);
                 }
             }, this.cancellation.Token);
